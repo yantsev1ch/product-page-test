@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 230px;
+    background: #FAFAFA;
+    padding: 0 35px;
+}
+
+.section {
+    width: 310px;
+    height: 182px;
+    border-radius: 16px;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.left_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.orders {
+    font-weight: 500;
+    font-size: 16px;
+    color: #111111;
+}
+
+.date_for {
+    font-size: 14px;
+    color: #858585;
+}
+
+.date_period {
+    border: 1px solid #F0F0F0;
+    background: #F1FCF6;
+    border-radius: 8px;
+    color: #219653;
+    font-size: 14px;
+}
+
+.right_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons button {
+    width: 37px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #858585;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.buttons button:focus {
+    background: #F1FCF6;
+    border-radius: 4px;
+    color: #219653;
+    pointer-events: none;
+}
+
+.amount {
+    font-weight: 500;
+    font-size: 16px;
+    color: #111111;
+}

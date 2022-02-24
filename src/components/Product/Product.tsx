@@ -20,13 +20,13 @@ const Product = () => {
                 </div>
                 <span className={styles.line}/>
                 <div className={styles.about_seller}>
-                    <span>Артикул</span>
+                    <span className={styles.sections}>Артикул</span>
                     <span className={styles.line}/>
-                    <span>Бренд</span>
+                    <span className={styles.sections}>Бренд</span>
                     <span className={styles.line}/>
-                    <span>Продавец</span>
+                    <span className={styles.sections}>Продавец</span>
                     <span className={styles.line}/>
-                    <span>Склад</span>
+                    <span className={styles.sections}>Склад</span>
                 </div>
                 <span className={styles.line}/>
             </div>

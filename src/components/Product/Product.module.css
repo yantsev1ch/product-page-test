@@ -51,6 +51,11 @@
     justify-content: space-between;
 }
 
+.sections {
+    color: #858585;
+    font-size: 14px;
+}
+
 .line {
     border: 1px solid #F0F0F0;
 }
