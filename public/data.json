@@ -1,0 +1,38 @@
+[
+  {
+    "id": "10066990",
+    "name": "Электробритва Braun 300bt",
+    "price": "3 567 ₽",
+    "rating": "4,67",
+    "reviews": "521",
+    "brand": "Braun",
+    "seller": "Вайлдберис",
+    "warehouse": "FBO, FBS, Retailn",
+    "amount": "234 678 шт",
+    "rubles": "12 340 211 ₽"
+  },
+  {
+    "id": "10066991",
+    "name": "Машинка для стрижки волос Philips QC5130",
+    "price": "2 944 ₽",
+    "rating": "1,5",
+    "reviews": "201",
+    "brand": "Philips",
+    "seller": "Ozon",
+    "warehouse": "FBS, Retailn, FBO",
+    "amount": "123 456 шт",
+    "rubles": "21 887 194 ₽"
+  },
+  {
+    "id": "10066992",
+    "name": "Эпилятор Panasonic ES-EL3A-N520",
+    "price": "4 019 ₽",
+    "rating": "3,42",
+    "reviews": "141",
+    "brand": "Panasonic",
+    "seller": "Avito",
+    "warehouse": "Retailn, FBO, FBS",
+    "amount": "321 654 шт",
+    "rubles": "99 936 593 ₽"
+  }
+]

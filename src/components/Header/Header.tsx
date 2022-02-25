@@ -14,11 +14,11 @@ const Header = () => {
                     <img src={logo} alt="logo" className={styles.logo}/>
                 </div>
                 <div className={styles.links}>
-                    <NavLink to="/product/10066990"
+                    <NavLink to="/products/10066990"
                              className={activeClass}>Товар<br/>10066990</NavLink>
-                    <NavLink to="/product/10066991"
+                    <NavLink to="/products/10066991"
                              className={activeClass}>Товар<br/>10066991</NavLink>
-                    <NavLink to="/product/10066992"
+                    <NavLink to="/products/10066992"
                              className={activeClass}>Товар<br/>10066992</NavLink>
                 </div>
             </div>

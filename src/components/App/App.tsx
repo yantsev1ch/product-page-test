@@ -1,14 +1,16 @@
 import React from 'react';
 import Header from "../Header/Header";
-import AppRouter from "./AppRouter";
-import OrderInfo from "../OrderInfo/OrderInfo";
+import Products from "../Product/Products";
+import {Route, Routes} from "react-router-dom";
 
 function App() {
+
     return (
         <>
             <Header/>
-            <AppRouter/>
-            <OrderInfo/>
+            <Routes>
+                <Route path='/products/:id' element={<Products/>}></Route>
+            </Routes>
         </>
     );
 }
