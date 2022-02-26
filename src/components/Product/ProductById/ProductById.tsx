@@ -1,6 +1,7 @@
 import React, {FC} from 'react';
 import styles from "./ProductById.module.css";
 import {IProduct} from "../../../models/IProduct";
+import Rating from "../../Rating/Rating";
 
 type PropsType = {
     product: IProduct;
@@ -17,21 +18,35 @@ const ProductById: FC<PropsType> = ({product}) => {
                 <div className={styles.about_product}>
                     <span className={styles.price}>{product.price}</span>
                     <span className={styles.line}/>
-                    <span className={styles.rate}>{product.rating}</span>
+                    <span className={styles.rate}>
+                        <Rating rating={product.rating}/>
+                    </span>
                     <span className={styles.line}/>
                     <span className={styles.review}>{product.reviews} отзыв</span>
                     <span className={styles.line}/>
-                    <span className={styles.update}>Обновлено 12 Ноября</span>
+                    <span className={styles.update}>Обновлено 12 Ноя, 12:24</span>
                 </div>
                 <span className={styles.line}/>
                 <div className={styles.about_seller}>
-                    <span className={styles.sections}>Артикул {product.id}</span>
+                    <div className={styles.sections}>
+                        <span>Артикул</span>
+                        <span className={styles.value}>{product.id}</span>
+                    </div>
                     <span className={styles.line}/>
-                    <span className={styles.sections}>Бренд {product.brand}</span>
+                    <div className={styles.sections}>
+                        <span>Бренд</span>
+                        <span className={styles.value}>{product.brand}</span>
+                    </div>
                     <span className={styles.line}/>
-                    <span className={styles.sections}>Продавец {product.seller}</span>
+                    <div className={styles.sections}>
+                        <span>Продавец</span>
+                        <span className={styles.value}>{product.seller}</span>
+                    </div>
                     <span className={styles.line}/>
-                    <span className={styles.sections}>Склад {product.warehouse}</span>
+                    <div className={styles.sections}>
+                        <span>Склад</span>
+                        <span className={styles.value}>{product.warehouse}</span>
+                    </div>
                 </div>
                 <span className={styles.line}/>
             </div>

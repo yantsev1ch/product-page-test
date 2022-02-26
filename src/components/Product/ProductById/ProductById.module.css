@@ -33,17 +33,24 @@
     justify-content: space-between;
 }
 
+.about_product>span {
+    padding-top: 5px;
+}
+
 .price {
     font-weight: 500;
+    font-size: 20px;
     color: #111111;
 }
 
 .review {
     color: #858585;
+    font-size: 14px;
 }
 
 .update {
     color: #858585;
+    font-size: 14px;
 }
 
 .about_seller {
@@ -57,15 +64,20 @@
     font-size: 14px;
 }
 
+.value {
+    color: #333D37;
+    padding-left: 12px;
+}
+
 .line {
     border: 1px solid #F0F0F0;
 }
 
 .lists {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 35px;
+    padding: 0 64px;
     height: 230px;
     background: #FAFAFA;
 }

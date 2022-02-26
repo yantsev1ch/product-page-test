@@ -2,7 +2,7 @@ export interface IProduct {
     "id": string,
     "name": string,
     "price": string,
-    "rating": string,
+    "rating": number,
     "reviews": string,
     "brand": string,
     "seller": string,

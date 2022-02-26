@@ -1,6 +1,6 @@
 
 .section {
-    width: 310px;
+    width: 320px;
     height: 182px;
     border-radius: 16px;
     background: #FFFFFF;
@@ -25,6 +25,8 @@
 .date_for {
     font-size: 14px;
     color: #858585;
+    display: flex;
+    align-items: center;
 }
 
 .date_period {
@@ -73,4 +75,8 @@
     font-weight: 500;
     font-size: 16px;
     color: #111111;
+}
+
+.logo {
+    padding-left: 6px;
 }
